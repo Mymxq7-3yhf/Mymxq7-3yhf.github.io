@@ -11,5 +11,10 @@ git push -u origin master	(将代码推送到远端）
 
 
 
-
+3.添加分支
+git branch -b xxx
+4.删除分支
+git branch -d xxx
+4.切换分支
+git checkout xxx
 
