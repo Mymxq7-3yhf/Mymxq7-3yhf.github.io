@@ -1,0 +1,83 @@
+#dots {
+  position: absolute;
+  left: 110px;
+  top: 460 px;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-color: pink;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.jiantouLeft {
+  position: absolute;
+  left: 30px;
+  top: 220px;
+  width: 20px;
+  height: 40px;
+  text-align: center;
+  background-color: skyblue;
+  float: left;
+  line-height: 40px;
+  font-size: 27px;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+  z-index: 2;
+}
+.jiantouRight {
+  position: absolute;
+  left: 330px;
+  top: 220px;
+  width: 20px;
+  height: 40px;
+  text-align: center;
+  background-color: skyblue;
+  float: left;
+  line-height: 40px;
+  font-size: 27px;
+  color: white;
+  border-radius: 20px 0px 0px 20px;
+  z-index: 2;
+}
+
+img {
+  position: absolute;
+  left: 30px;
+  width: 320px;
+  height: 480px;
+  z-index: 1;
+}
+
+.one {
+  position: absolute;
+  top: 480px;
+  left: 125px;
+}
+.two {
+  position: absolute;
+  top: 500px;
+  left: 135px;
+}
+.three {
+  position: absolute;
+  top: 520px;
+  left: 145px;
+}
+.four {
+  position: absolute;
+  top: 540px;
+  left: 155px;
+}
+.five {
+  position: absolute;
+  top: 560px;
+  left: 165px;
+}
+.six {
+  position: absolute;
+  top: 580px;
+  left: 175px;
+}

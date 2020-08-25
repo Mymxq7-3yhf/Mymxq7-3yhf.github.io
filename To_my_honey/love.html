@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小七家的皮卡丘呀</title>
+    <script>
+      let count = 0;
+      let count1 = 0;
+      let data;
+      do {
+        data = prompt("小可爱祢是小余同学的谁");
+        count++;
+        if (count % 9 == 0) {
+          alert("姐姐，祢不累吗一直按，都" + count + "次了，取消干啥呢");
+          if (count == 27) {
+            alert("喜欢我家的七祁呀，嘻嘻嘻");
+          }
+          if (count == 36) {
+            alert("有本事祢再取消一次");
+          }
+        }
+        if (count == 37) {
+          alert("行，祢牛，我服气，不愧是祢，老嚣张了");
+          alert(
+            "ღღღღღღღ\n    u and me \n      3 和 7   \nmxq and  yhf\nღღღღღღღ"
+          );
+          alert("累到小可爱了，来，帮小可爱揉揉手");
+          alert("祢就是我的小老婆");
+          data = "小老婆";
+          break;
+        }
+      } while (data == null);
+      if (!confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")) {
+        alert("什么？祢不喜欢？");
+        if (!confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")) {
+          alert("小可爱，别闹");
+          if (!confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")) {
+            alert("祢怎么可能不喜欢小余同学呢");
+            if (!confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")) {
+              alert("快承认祢喜欢");
+              if (
+                !confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")
+              ) {
+                alert("又广几爱几爱哥哥");
+                if (
+                  !confirm("小余同学的" + data + ",\n" + "祢喜欢小余同学吗？")
+                ) {
+                  alert("好吖祢，我要让祢付出代价");
+                  do {
+                    if (
+                      !confirm(
+                        "小余同学的" + data + ",\n" + "祢喜欢小余同学吗？"
+                      )
+                    ) {
+                      alert("行，那祢就点取消327次把\n现在才" + count1 + "次");
+                      count1++;
+                      if (count1 == 7) {
+                        alert("才7次就不行了？就这？就这？");
+                      }
+                      if (count1 == 17) {
+                        alert(
+                          "加油啊，\n不要放弃，\n现在才17次\n还剩327-17次呢"
+                        );
+                      }
+                      if (count1 == 27) {
+                        alert("祢啊，真是一个傻瓜,哥哥也是个超级无敌大傻瓜");
+                        alert("哥哥喜欢妹妹ya");
+                      }
+                    } else if (
+                      confirm(
+                        "小余同学的" + data + ",\n" + "祢喜欢小余同学吗？"
+                      )
+                    ) {
+                      alert("mua~");
+                    }
+                  } while (count1 != 27);
+                } else {
+                  alert("mua~");
+                }
+              } else {
+                alert("mua~");
+              }
+            } else {
+              alert("mua~");
+            }
+          } else {
+            alert("mua~");
+          }
+        } else {
+          alert("mua~");
+        }
+      } else {
+        alert("mua~");
+        window.location.href = "./www/index.html";
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
