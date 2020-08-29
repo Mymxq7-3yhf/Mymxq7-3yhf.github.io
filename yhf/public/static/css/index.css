@@ -1,0 +1,11 @@
+.chat {
+  height: 400px;
+  width: 400px;
+  background-color: gray;
+  color: white;
+}
+
+#one {
+  width: 60px;
+  height: 60px;
+}
