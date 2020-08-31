@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>聊天室</title>
+    <link rel="stylesheet" href="static/css/index.css" type="text/css" />
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script src="static/js/socket.io.js"></script>
+    <script src="static/js/getComponents.js"></script>
+  </head>
+  <body>
+    <div class="login-wrap">
+      <div class="login-con">
+        <input
+          type="text"
+          placeholder="请输入昵称"
+          id="loginName"
+          name="username"
+        />
+        <button class="login-btn" type="submit">登录</button>
+      </div>
+    </div>
+
+    <div class="chat-wrap hide">
+      <h1>网页聊天室</h1>
+
+      <div id="chat-area-top"></div>
+      <div id="chat-area-tips"></div>
+      <div class="chat-con clearfix"></div>
+      <div class="user-list">
+        <!-- <div class="people-number">当前30人在线</div> -->
+        <div class="user"></div>
+      </div>
+
+      <div class="bottom">
+        <input type="text" id="sendtxt" />
+        <button class="sendBtn">发送</button>
+      </div>
+    </div>
+
+    <script src="static/js/index.js"></script>
+  </body>
+</html>
